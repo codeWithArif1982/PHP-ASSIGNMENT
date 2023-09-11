@@ -13,7 +13,8 @@ $introduction = "I have a passion on development, so now a days I am focusing on
 
 echo "My name is : $name" ."<br>";
 echo "My Age is : $age" ."<br>";
-echo "I live in : $country" ."<br>";
+echo "I live in : 3
+$country" ."<br>";
 echo "About myself : ".$introduction;
 
 ?>
