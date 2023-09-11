@@ -11,9 +11,9 @@ $country = "USA";
 $introduction = "I have a passion on development, so now a days I am focusing on to learn Laravel framework";
 
 
-echo "My name is : ".$name ."<br>";
-echo "My Age is : ". $age ."<br>";
-echo "I live in : ".$country ."<br>";
+echo "My name is : $name" ."<br>";
+echo "My Age is : $age" ."<br>";
+echo "I live in : $country" ."<br>";
 echo "About myself : ".$introduction;
 
 ?>
