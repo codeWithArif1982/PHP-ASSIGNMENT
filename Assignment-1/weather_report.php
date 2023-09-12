@@ -7,4 +7,6 @@ Depending on the temperature range, display messages like "It's freezing!",
 "It's cool.", or "It's warm."
 */
 
+fgfg
+
 ?>
