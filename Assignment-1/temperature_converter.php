@@ -8,6 +8,20 @@ direction (Celsius to Fahrenheit or vice versa).
  Display the converted temperature.
 */
 
+$temperature = readline("Enter a temperature : ");
 
+function celsiusToFahrenheit($temperature)
+{
+    return ($temperature * 1.8) + 32;
+}
 
-?>
+function fahrenheitToCelsius($temperature)
+{
+    return (($temperature - 32) * 5) / 9;
+}
+
+$celsius = celsiusToFahrenheit($temperature);
+$fahrenheit = floor(fahrenheitToCelsius($temperature));
+
+printf("$temperature degree Celsius is equal to $celsius degree Fahrenheit ");
+printf("$temperature degree Fahrenheit is equal to $fahrenheit degree Celsius ");
